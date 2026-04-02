@@ -55,6 +55,6 @@ function CopaWidgetFloat() {
 import type { Metadata } from 'next'
 export const metadata: Metadata = { title: 'Yoga Lab', description: 'ヨガ・ピラティス比較' }
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="ja"><body style={{margin:0,fontFamily:'sans-serif'}}>{children}<CopaWidgetFloat />
+  return <html lang="ja"><script async src="https://www.googletagmanager.com/gtag/js?id=G-SVQXY5C3PW"></script><script dangerouslySetInnerHTML={{__html:`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-SVQXY5C3PW');`}} /><body style={{margin:0,fontFamily:'sans-serif'}}>{children}<CopaWidgetFloat />
 </body></html>
 }
