@@ -8,7 +8,7 @@ const RAKUTEN_AFFILIATE_ID = process.env.RAKUTEN_AFFILIATE_ID || '5253b9ed.08f9d
 const MOSHIMO_ID = '1184522';
 
 const SITE_NAME = 'ヨガLab';
-const TOPIC = 'ヨガ・ピラティス・ストレッチ・瞑想';
+const TOPIC = 'ヨガ・ピラティス・ストレッチ';
 const CRITERIA = '効果・難易度・続けやすさ・コスパ・口コミ';
 
 function moshimoAmazonLink(keyword) {
