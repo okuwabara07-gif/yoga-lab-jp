@@ -2,9 +2,9 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const SITE_NAME = 'ヨガLab';
-const TOPIC = 'ヨガ・ピラティス・ストレッチ';
-const CRITERIA = '効果・難易度・続けやすさ・コスパ・口コミ';
+const SITE_NAME = 'ヨガLAB';
+const TOPIC = 'ヨガ・ピラティス・ヨガグッズ・ヨガウェア';
+const CRITERIA = '効果・続けやすさ・コスパ・使いやすさ・口コミ';
 const AMAZON_TAG = process.env.AMAZON_TRACKING_ID || 'haircolorab22-22';
 const RAKUTEN_ID = process.env.RAKUTEN_AFFILIATE_ID || '5253b9ed.08f9d938.5253b9ee.e71aefe8';
 
