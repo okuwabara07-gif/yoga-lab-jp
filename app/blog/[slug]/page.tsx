@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: any) {
 }
 
 function img(kw: string, w: number, h: number) {
-  const en = kw.replace(/[\u3000-\u9fff\u30A0-\u30FF]/g, '').trim() || 'yoga'
+  const en = kw.replace(/[　-鿿゠-ヿ]/g, '').trim() || 'yoga'
   return `https://source.unsplash.com/${w}x${h}/?${encodeURIComponent(en)},yoga wellness mindfulness meditation`
 }
 
